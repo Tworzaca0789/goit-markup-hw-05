@@ -364,7 +364,25 @@ body {
   gap: 30px;
 }
 .child-photo {
+  position: relative;
   display: inline-block;
+}
+.stamp {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--color-font-snow);
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0,03em;
+  text-transform: uppercase;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 .creation-photo {
   mix-blend-mode: normal;

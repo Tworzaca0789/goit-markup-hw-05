@@ -99,6 +99,32 @@ body {
   position: relative;
   display: flex;
 }
+.item-one-navigation {
+  position: relative;
+}
+.item-one-navigation:hover::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  background-color: var(--color-background-skylight);
+  margin-top: 28px;
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+}
+.item-two-navigation {
+  position: relative;
+}
+.item-two-navigation:hover::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  background-color: var(--color-background-skylight);
+  margin-top: 28px;
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+}
 .navigation .navigation-link {
   font-family: "Roboto";
   font-weight: 500;

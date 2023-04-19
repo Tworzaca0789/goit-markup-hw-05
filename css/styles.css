@@ -15,6 +15,7 @@
   --color-background-bag: #e5e5e5;
   --color-background-snow: #ffffff;
   --color-background-dark: rgba(0, 0, 0, 0.2);
+  --color-border-darknext: rgba(0, 0, 0, 0.1);
   --color-icon-wood: #757575;
   --color-icon-sky: #2196f3;
   --color-icon-light: #f5f4fa;
@@ -672,10 +673,11 @@ body {
   top: 50%;
   width: 528px;
   min-height: 581px;
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
   background-color: var(--color-background-snow);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px var(--color-box-shadow-darktwo),
+    0px 1px 1px var(--color-box-shadow-darkdoor),
+    0px 2px 1px var(--color-box-shadow-darkeys);
   border-radius: 4px;
 }
 .close-btn {
@@ -685,7 +687,7 @@ body {
   top: 7px;
   right: 8px;
   fill: var(--color-icon-dark);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--color-border-darknext);
   background-color: var(--color-background-snow);
   padding: 6px;
   border-radius: 50%;
